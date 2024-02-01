@@ -1,0 +1,14 @@
+C:\Users\joaoc\OneDrive\Ambiente de Trabalho\Projeto Quiz\bin\Debug\net8.0\Projeto Quiz.exe
+C:\Users\joaoc\OneDrive\Ambiente de Trabalho\Projeto Quiz\bin\Debug\net8.0\Projeto Quiz.deps.json
+C:\Users\joaoc\OneDrive\Ambiente de Trabalho\Projeto Quiz\bin\Debug\net8.0\Projeto Quiz.runtimeconfig.json
+C:\Users\joaoc\OneDrive\Ambiente de Trabalho\Projeto Quiz\bin\Debug\net8.0\Projeto Quiz.dll
+C:\Users\joaoc\OneDrive\Ambiente de Trabalho\Projeto Quiz\bin\Debug\net8.0\Projeto Quiz.pdb
+C:\Users\joaoc\OneDrive\Ambiente de Trabalho\Projeto Quiz\obj\Debug\net8.0\Projeto Quiz.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\joaoc\OneDrive\Ambiente de Trabalho\Projeto Quiz\obj\Debug\net8.0\Projeto Quiz.AssemblyInfoInputs.cache
+C:\Users\joaoc\OneDrive\Ambiente de Trabalho\Projeto Quiz\obj\Debug\net8.0\Projeto Quiz.AssemblyInfo.cs
+C:\Users\joaoc\OneDrive\Ambiente de Trabalho\Projeto Quiz\obj\Debug\net8.0\Projeto Quiz.csproj.CoreCompileInputs.cache
+C:\Users\joaoc\OneDrive\Ambiente de Trabalho\Projeto Quiz\obj\Debug\net8.0\Projeto Quiz.dll
+C:\Users\joaoc\OneDrive\Ambiente de Trabalho\Projeto Quiz\obj\Debug\net8.0\refint\Projeto Quiz.dll
+C:\Users\joaoc\OneDrive\Ambiente de Trabalho\Projeto Quiz\obj\Debug\net8.0\Projeto Quiz.pdb
+C:\Users\joaoc\OneDrive\Ambiente de Trabalho\Projeto Quiz\obj\Debug\net8.0\Projeto Quiz.genruntimeconfig.cache
+C:\Users\joaoc\OneDrive\Ambiente de Trabalho\Projeto Quiz\obj\Debug\net8.0\ref\Projeto Quiz.dll
