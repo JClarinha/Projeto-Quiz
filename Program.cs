@@ -14,12 +14,12 @@ System.Console.WriteLine(3);
 Stopwatch stopwatch = new Stopwatch();
 stopwatch.Start();
 
-decimal pontos = 0;
+float pontos = 0;
 System.Console.WriteLine("Pergunta 1 = 10 pontos!");
 System.Console.WriteLine("Para que serve a programação?\n A- Para o pessoal poder trabalhar em casa de cuecas!\n B- Para comunicarmos com máquinas!\n C- None of the above!");
 string Resposta1 = System.Console.ReadLine(); 
-decimal p1 = 10; // pontuação da pergunta
-decimal percentagem1 = p1*10/100;
+float p1 = 10; // pontuação da pergunta
+float percentagem1 = p1*10/100;
 
 
 
@@ -57,7 +57,7 @@ switch(Resposta1)
 
 
 System.Console.WriteLine("Pergunta 2 = 20 pontos!\nHTML é uma linguagem de progrmação?\n A- Sim!\n B- Não!");
-decimal p2 = 20; //pontos da pergunta
+float p2 = 20; //pontos da pergunta
 string Resposta2 = System.Console.ReadLine();
 
 
@@ -74,7 +74,7 @@ switch(Resposta2)
      case "a":
      case "A":
         System.Console.WriteLine("Esta era fácil porfavor!");
-        decimal percentagem2 = p2 * 10 / 100;
+        float percentagem2 = p2 * 10 / 100;
         pontos = pontos - percentagem2;
         System.Console.WriteLine("Toma lá menos 10% do valor da resposta certa!");
         System.Console.WriteLine("Pontos = " + pontos);
@@ -90,7 +90,7 @@ switch(Resposta2)
 }
 
 System.Console.WriteLine("Pergunta 3 = 30 pontos!\n C# é um linguagem de programação orientada a objetos? \n A- Sim!\n B- Não!");
-decimal p3 = 30; //pontos da pergunta
+float p3 = 30; //pontos da pergunta
 string Resposta3 = System.Console.ReadLine();
 
 switch (Resposta3)
@@ -106,7 +106,7 @@ switch (Resposta3)
     case "b":
     case "B":
         System.Console.WriteLine("Vá nesta tens desculpa.");
-        decimal percentagem3 = p3 * 5 / 100;
+        float percentagem3 = p3 * 5 / 100;
         pontos = pontos - percentagem3;
         System.Console.WriteLine("Pronto nesta só tiramos 5% do valor da pergunta:)");
         System.Console.WriteLine("Pontos = " + pontos);
