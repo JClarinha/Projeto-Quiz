@@ -14,12 +14,12 @@ System.Console.WriteLine(3);
 Stopwatch stopwatch = new Stopwatch();
 stopwatch.Start();
 
-int pontos = 0;
+decimal pontos = 0;
 System.Console.WriteLine("Pergunta 1 = 10 pontos!");
 System.Console.WriteLine("Para que serve a programação?\n A- Para o pessoal poder trabalhar em casa de cuecas!\n B- Para comunicarmos com máquinas!\n C- None of the above!");
 string Resposta1 = System.Console.ReadLine(); 
-int p1 = 10; // pontuação da pergunta
-int percentagem1 = p1*10/100;
+decimal p1 = 10; // pontuação da pergunta
+decimal percentagem1 = p1*10/100;
 
 
 
@@ -57,7 +57,7 @@ switch(Resposta1)
 
 
 System.Console.WriteLine("Pergunta 2 = 20 pontos!\nHTML é uma linguagem de progrmação?\n A- Sim!\n B- Não!");
-int p2 = 20; //pontos da pergunta
+decimal p2 = 20; //pontos da pergunta
 string Resposta2 = System.Console.ReadLine();
 
 
@@ -74,7 +74,7 @@ switch(Resposta2)
      case "a":
      case "A":
         System.Console.WriteLine("Esta era fácil porfavor!");
-        int percentagem2 = p2 * 10 / 100;
+        decimal percentagem2 = p2 * 10 / 100;
         pontos = pontos - percentagem2;
         System.Console.WriteLine("Toma lá menos 10% do valor da resposta certa!");
         System.Console.WriteLine("Pontos = " + pontos);
@@ -89,12 +89,44 @@ switch(Resposta2)
         break;
 }
 
+System.Console.WriteLine("Pergunta 3 = 30 pontos!\n C# é um linguagem de programação orientada a objetos? \n A- Sim!\n B- Não!");
+decimal p3 = 30; //pontos da pergunta
+string Resposta3 = System.Console.ReadLine();
+
+switch (Resposta3)
+{
+    case "a":
+    case "A":
+        System.Console.WriteLine("Parabéns mais 30 pontos!");
+        pontos = pontos + p3;
+        System.Console.WriteLine("Pontos = " + pontos);
+
+        break;
+
+    case "b":
+    case "B":
+        System.Console.WriteLine("Vá nesta tens desculpa.");
+        decimal percentagem3 = p3 * 5 / 100;
+        pontos = pontos - percentagem3;
+        System.Console.WriteLine("Pronto nesta só tiramos 5% do valor da pergunta:)");
+        System.Console.WriteLine("Pontos = " + pontos);
+        break;
+
+    default:
+        System.Console.WriteLine("Por favor responde com as opções que te dou!");
+
+        pontos = pontos - p3;
+        System.Console.WriteLine("Toma lá menos 30 pontos e vais com sorte!");
+        System.Console.WriteLine("Pontos = " + pontos);
+        break;
+}
 
 
 stopwatch.Stop();
 TimeSpan tp = stopwatch.Elapsed;
 string elapsedTime = String.Format("{0:00}:{1:00}:{2:00}", tp.Hours, tp.Minutes, tp.Seconds);
 System.Console.WriteLine("Tempo: " + elapsedTime);
+
 
 
 Console.ReadLine();
